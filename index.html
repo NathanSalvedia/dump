@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0"/>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <title></title>
+    <body>
+        <section class="section-cta" id="cta">
+            <div class="container">
+              <div class="cta">
+                <div class="cta-text-box">
+                  <h2 class="heading-secondary">Get your first meal for free!</h2>
+                  <p class="cta-text">
+                    Healthy, tasty and hassle-free meals are waiting for you. Start
+                    eating well today. You can cancel or pause anytime. And the
+                    first meal is on us!
+                  </p>
+      
+                  <form class="cta-form" name="sign-up" id="form">
+                    <div>
+                      <label for="full-name">Full Name</label>
+                      <input
+                        id="full-name"
+                        type="text"
+                        placeholder="John Smith"
+                        name="full-name"
+                        required
+                      />
+                    </div>
+                    
+                    <div>
+                      <label for="email">Email address</label>
+                      <input
+                        id="email"
+                        type="email"
+                        placeholder="me@example.com"
+                        name="email"
+                        required
+                      />
+                    </div>
+                    
+                   <div>
+                     <label for="Telephone">Telephone</label>
+                     <input id="telephone" type="telephone" placeholder="(222) 1915" name="telephone" required />
+                   </div>
+                    
+                   <div>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" required/>
+                   </div>
+                   
+                   <div>
+                    <label for="Gender">Gender</label>
+                    <select id="gender" name="select-gender" required>
+                      <option value="">Please choose one option:</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      <option value="Prefer not to say">Prefer not to say</option>
+                    </select>
+                    </div> 
+                
+                    <div>
+                      <label for="select-where">Where did you hear from us?</label>
+                      <select id="select-where" name="select-where" required>
+                        <option value="">Please choose one option:</option>
+                        <option value="friends">Friends and family</option>
+                        <option value="youtube">YouTube video</option>
+                        <option value="podcast">Podcast</option>
+                        <option value="ad">Facebook ad</option>
+                        <option value="others">Others</option>
+                      </select>
+                    </div>
+      
+                    <button class="btn btn--form" id="submit" type="submit">Sign up now</button>
+                  </form>
+                </div>
+                <div
+                  class="cta-img-box"
+                  role="img"
+                  aria-label="Woman enjoying food"
+                ></div>
+              </div>
+            </div>
+          </section>
+      
+           <div class="tables" id="table">
+            <table class="table">
+              <thead>
+              <tr>
+                  <th>Full name</th>
+                  <th>Email Address</th>
+                  <th>telephone</th>
+                  <th>Date</th>
+                  <th>Gender</th>
+                  <th>Where did you hear from us</th>
+                </tr>
+              </thead>
+                <tr>
+                  <td id="data1"></td>
+                  <td id="data2"></td>
+                  <td id="data3"></td>
+                  <td id="data4"></td>
+                  <td id="data5"></td>
+                  <td id="data6"></td>
+                </tr>
+           </div>
+      
+    </body>
+</html>
